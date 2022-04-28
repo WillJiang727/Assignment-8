@@ -1,0 +1,567 @@
+/*********** BODY ************/
+body {
+    text-align: center;
+    margin: 0;
+    color: #737373;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("f355.jpg");
+    background-color: #aaaaaa;
+    min-height: 120vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*********** HEADER ************/
+
+header {
+    font-family: 'jhhw', serif;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    color: #000000;
+}
+
+
+.nav-link {
+    font-family: 'jhhw', serif;
+    font-size: 30px;
+}
+
+
+.site-title {
+    margin: 0;
+    font-size: 64px!important;
+    padding: 0px;
+    color: #313A75!important;
+    font-weight: normal!important;
+}
+
+
+
+.bio-text {
+height: 700px;
+background-color: #5d9893;
+opacity: 0.8;
+font-family: 'jhhw', serif;
+font-size: 36px;
+text-align: center;
+padding: 100px;
+}
+
+.bio-text-2 img{
+width: 500px; /* you can use % */
+height: auto;
+}
+
+
+.bio-text-2 {
+height: 1000px;
+background-color: #5d9893;
+opacity: 1;
+font-family: 'jhhw', serif;
+font-size: 28px;
+text-align: left;
+padding: 50px;
+}
+
+.bio-text-3 {
+height: 1000px;
+background-color: #5d9893;
+opacity: 1;
+font-family: 'jhhw', serif;
+font-size: 36px;
+text-align: right;
+padding: 100px;
+}
+
+
+h1 {
+    font-family: 'jhhw', serif;
+    border: 10px;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+h3 {
+    text-align: left;
+    border: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: -80px;
+    margin-top: -80px;
+}
+
+
+h4 {
+    margin: 0;
+    text-align: left;
+    font-size: 19px;
+    padding: 0px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: -79px;
+    margin-top: 0px;
+}
+
+
+h5 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    text-decoration: underline;
+    padding-right: 200px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: -30px;
+}
+
+h6 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    text-decoration: underline;
+    padding-right: 50px;
+    color: #545353;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: -25px;
+}
+
+h7 {
+    margin: 0;
+    text-align: right;
+    font-size: 22px;
+    padding-left: 960px;
+    color: #545353;
+    font-weight: normal;
+}
+
+h8 {
+    position: absolute;
+    font-size: 26px;
+    left: 40px;
+    bottom: 40px;
+    font-weight: bold;
+}
+
+
+
+
+/*********** BUTTONS ************/
+#login-buttons {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 0px;
+}
+
+#main-menu-buttons {
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 0px;
+    vertical-align: super;
+    font-size: 36px;
+    text-align: left;
+    font-family: 'jhhw', serif;
+}
+
+
+
+.col{
+  margin-left: 10px;
+}
+
+
+
+.deloitte {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 80px 0;
+  border: gray;
+  background-color: hsl(90, 20%, 20%);
+  color: #000022;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom:  -350px;
+  font-color: #000022;
+}
+
+.wechat {;
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 0px 0;
+  border: gray;
+  background-color: hsl(0, 90%, 30%);
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.covid {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 80px 0;
+  border: gray;
+  background-color: hsl(32, 40%, 35%);
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.shanghai {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 85px 0;
+  border: gray;
+  background-color: hsl(198, 47%, 29%);
+  color: #27576B;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.la {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 46px 0;
+  border: gray;
+  background-color: hsl(232, 40%, 33%);
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.pittsburgh {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  padding: 46px 0;
+  border: gray;
+  background-color: hsl(43, 40%, 45%);
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+/* DEMO GENERAL ============================== */
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: relative;
+  top: -200 px;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+
+/* DEMO 1 ============================== */
+.hover-1 img {
+  position: relative;
+  top: -1000 px;
+  opacity: 0;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.hover-overlay:hover {
+  background: red!important;
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover img {
+  left: 0;
+  opacity: 1;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+
+/* DEMO 2 ============================== */
+.hover-2 .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+.hover-2-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-title {
+  transform: translateY(-1.5rem);
+}
+
+.hover-2:hover .hover-2-description {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hover-2:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+
+/* DEMO 3 ============================== */
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+  opacity: 0;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+  width: 100%;
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* DEMO 4 ============================== */
+.hover-4 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-4 .hover-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 90;
+}
+
+.hover-4-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+  z-index: 99;
+}
+
+.hover-4-description {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  text-align: right;
+  border-right: 3px solid #fff;
+  padding: 0 1rem;
+  z-index: 99;
+  transform: translateX(-1.5rem);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+@media (min-width: 992px) {
+  .hover-4-description {
+    width: 50%;
+  }
+}
+
+.hover-4:hover img {
+  width: 100%;
+}
+
+.hover-4:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-4-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-4:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* DEMO 5 ============================== */
+.hover-5::after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #47c650;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: block;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.hover-5 .hover-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hover-5-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  transition: all 0.3s;
+  padding: 2rem 3rem;
+  z-index: 99;
+}
+
+.hover-5-title span {
+  transition: all 0.4s;
+  opacity: 0;
+  color: #47c650;
+}
+
+.hover-5:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-title {
+  bottom: 0;
+}
+
+.hover-5:hover .hover-5-title span {
+  opacity: 1;
+}
+
+.hover-5:hover::after {
+  bottom: 0;
+}
